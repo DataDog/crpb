@@ -1,0 +1,16 @@
+{
+    "name": "cloud-run-demo-ruby-on-rails",
+    "env": {
+        "DD_API_KEY": {
+            "description": "Your Datadog's API KEY (see: https://docs.datadoghq.com/account_management/api-app-keys)",
+            "required": true
+        }
+    },
+    "options": {
+        "allow-unauthenticated": true,
+        "memory": "512Mi",
+        "cpu": "1",
+        "port": 3000,
+        "http2": false
+    }
+}
