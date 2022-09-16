@@ -7,7 +7,7 @@ RUN bundle install
 COPY . .
 EXPOSE 3000
 
-COPY --from=datadog/serverless-init:beta3 /datadog-init /app/datadog-init
+COPY --from=datadog/serverless-init:beta4 /datadog-init /app/datadog-init
 
 ENV DD_SERVICE=datadog-demo-run-ruby-on-rails
 ENV DD_ENV=datadog-demo
