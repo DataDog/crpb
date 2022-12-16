@@ -12,4 +12,4 @@
 
 # Note
 
-This repo contains an experimental solution that is currently available with limited support in a Private Beta. If you would be interested in participating in this Beta, please reach out to your account team for more information. 
+This repo contains an experimental solution that is currently available with limited support in a Public Beta. 
