@@ -1,1 +1,3 @@
 java/target
+dotnet/bin
+dotnet/obj
