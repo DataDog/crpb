@@ -1,5 +1,5 @@
 {
-    "name": "cloud-run-demo-go",
+    "name": "cloud-run-demo-php",
     "env": {
         "DD_API_KEY": {
             "description": "Your Datadog's API KEY (see: https://docs.datadoghq.com/account_management/api-app-keys)",
