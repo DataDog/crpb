@@ -11,7 +11,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-COPY --from=datadog/serverless-init:beta4 /datadog-init /app/datadog-init
+COPY --from=datadog/serverless-init:beta8 /datadog-init /app/datadog-init
 
 ENV CORECLR_ENABLE_PROFILING=1
 ENV CORECLR_PROFILER={846F5F1C-F9AE-4B07-969E-05C26BC060D8}

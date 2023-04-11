@@ -20,7 +20,7 @@ WORKDIR /workspace/app
 
 COPY --from=curl /tmp/dd-java-agent.jar dd-java-agent.jar
 COPY --from=build /workspace/app/target/helloworld-0.0.1-SNAPSHOT.jar app.jar
-COPY --from=datadog/serverless-init:beta4-alpine /datadog-init /app/datadog-init
+COPY --from=datadog/serverless-init:beta8-alpine /datadog-init /app/datadog-init
 
 ENV DD_SERVICE=datadog-demo-run-java-alpine
 ENV DD_ENV=datadog-demo
