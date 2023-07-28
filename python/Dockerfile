@@ -1,5 +1,5 @@
 FROM python:3.10-slim
-COPY --from=datadog/serverless-init:beta8 /datadog-init /app/datadog-init
+COPY --from=datadog/serverless-init:1 /datadog-init /app/datadog-init
 ENV PYTHONUNBUFFERED True
 WORKDIR /app
 COPY requirements.txt app.py /app/
